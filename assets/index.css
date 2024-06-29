@@ -508,13 +508,20 @@ margin-top: 12px;
 }
 .contact .container .container-left img{
     margin-top: 43px;
+    width: 100%;
+    border-radius: 24px;
+}
+
+.contact .container .container-left{
+    max-width: 55%;
+    width: 100%;
 }
 
 .contact .container .container-right{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 698px;
+    max-width: 40%;
     width: 100%;
     justify-content: flex-end;
 }
@@ -741,6 +748,10 @@ margin-top: 12px;
         justify-content: center;
     }
 
+    .contact .container{
+        flex-direction: column;
+    }
+
     /* Product start */
     .product .container{
         padding: 0 20px;
@@ -793,6 +804,16 @@ margin-top: 12px;
         width: 100%;
     }
     .contact .container .container-left img{
+        width: 100%;
+    }
+
+    .contact .container .container-left{
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .contact .container .container-right{
+        max-width: 100%;
         width: 100%;
     }
     
